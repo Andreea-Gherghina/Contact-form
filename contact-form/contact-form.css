@@ -1,0 +1,78 @@
+body {
+    background-color: bisque;
+}
+
+.container-form {
+    display: flex;
+    position: absolute;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    border: 1px solid;
+    padding: 16px;
+    justify-content: center;
+    align-content: center;
+    background-color: burlywood;
+    
+}
+
+.content-form {
+    margin-left: 30px;
+}
+
+img {
+    padding-left: 32px;
+    width: 250px;
+    height: 350px;
+}
+
+#firstname, #lastname, #gender {
+    width: 100%;
+    margin-top: 18px;
+    padding: 2px;
+    border-color: burlywood;
+}
+
+#submit {
+    margin-left: 220px;
+    margin-top: 24px;
+    padding: 6px;
+    font-weight: bolder;
+    border: whitesmoke;
+}
+#submit:hover {
+    background-color: #4169E1;
+    border-color: blue;
+    color:white;
+}
+
+.inputs {
+    margin-left: 40px;
+    padding-bottom: 10px;
+    
+}
+
+#gender {
+    border: 1px solid white;
+    background-color: white;
+    color: gray;
+    
+}
+
+
+#confirmation-banner {
+    display: none;
+    padding: 40px;
+    margin-top: 200px;
+    margin-right: 300px;
+    margin-left: 300px;
+    border: 1px solid green;
+    background-color: #32CD32;
+    font-size: 34px;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    
+}
+
+
